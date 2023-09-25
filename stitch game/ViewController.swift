@@ -91,7 +91,7 @@ class ViewController: UIViewController {
                 return
             }
         }
-        let alert = UIAlertController(title: "Игра закончена", message:"", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Игра закончена!", message:"", preferredStyle: .alert)
         
         alert.addAction(UIAlertAction(title: "Начать заново", style: .default, handler: { [self] action in
             self.clearGame()
